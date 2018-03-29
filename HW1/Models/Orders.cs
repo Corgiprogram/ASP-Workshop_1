@@ -52,10 +52,24 @@ namespace HW1.Models
                    ShipCity="高雄市",
                    ShipRegion="大社區",
                    ShipPostalCode="326",
-                   ShipCountry="台灣";
-       
+                   ShipCountry="台灣"
+               },
+               new Orders{
+                   OrderID=2,
+                   CustomerID=1,
+                   EmployeeID=2,
+                   OrderDate=Convert.ToDateTime("2018-03-29"),
+                   RequiredDate=Convert.ToDateTime("2018-03-29"),
+                   ShippedDate=Convert.ToDateTime("2018-03-29"),
+                   ShippedID=1,
+                   Freight=50,
+                   ShipAddress="深中路8號",
+                   ShipCity="高雄市",
+                   ShipRegion="燕巢區",
+                   ShipPostalCode="326",
+                   ShipCountry="台灣"
                }
-           }
+           };
            return OrdersList;
         }
     }
