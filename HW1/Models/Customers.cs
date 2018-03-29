@@ -9,8 +9,8 @@ namespace HW1.Models
 {
     public class Customers
     {
-        [DisplayName("客戶編號")]
         public int CustomerID { get; set; }
+        [DisplayName("客戶名稱")]
         public String CompanyName { get; set; }
         public String ContactName { get; set; }
         public String Address { get; set; }
